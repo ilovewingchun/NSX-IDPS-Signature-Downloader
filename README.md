@@ -2,14 +2,14 @@
 
 This script allows you to download the IDPS signatures from NSX Manager using the NSX API.
 
-##Requirements
+## Requirements
 
 - Python 3.x
 - Required Python packages can be installed using `pip`:
 pip install requests urllib3
 
 
-##Usage
+## Usage
 
 1. Update the user-configurable options in the script:
  - Set the `base_url` variable to the URL of your NSX Manager.
@@ -27,7 +27,7 @@ The script will retrieve the latest IDPS signature version ID from NSX Manager a
 
 3. The downloaded signature file will be saved in the specified output directory or the same directory as the script.
 
-##Example of running the script on a Windows 10 machine:
+## Example of running the script on a Windows 10 machine:
 
 C:\Users\tyler>python download_nsx_idps_sig.py
 The identified signature version is: IDPSSignatures.1725.2023-06-13T10:41:07Z
@@ -47,7 +47,7 @@ Data saved to IDPSSignatures.1725.csv
 
 C:\Users\tyler>
 
-##Example of running the script on a Ubuntu 22 machine:
+## Example of running the script on a Ubuntu 22 machine:
 
 tyler@tyler-virtual-machine:~$ python3 download_nsx_idps_sig.py
 The identified signature version is: IDPSSignatures.1725.2023-06-13T10:41:07Z
